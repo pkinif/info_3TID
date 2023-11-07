@@ -92,6 +92,16 @@ Identifiez le nombre maximum de matchs qu'un joueur unique a joués.
 #### Exercice 10: Nombre Minimum de Tués par Match
 Recherchez le nombre minimum de tués par match qu'un joueur a réalisés.
 
+#### Exercice 11: Création d'un Diagramme en Barres
+Construisez un diagramme en barres illustrant le nombre de matchs joués pour chaque jeu vidéo.
+
+Pour y parvenir :
+
+Compilez d'abord un tableau récapitulatif qui regroupe le nombre total de matchs joués par jeu.
+Assurez-vous de trier les jeux par ordre croissant du nombre de matchs joués.
+Sélectionnez ensuite ces données triées et insérez un diagramme en barres via l'onglet Insertion > Graphique en barres.
+Choisissez le style de diagramme en barres qui représente le mieux les données et ajustez le design si nécessaire pour une meilleure clarté visuelle.
+
 #### Exercice Bonus: Ajout d'une Variable Binaire pour les Victoires
 Créez une nouvelle colonne qui indique '1' si un joueur a gagné plus de 20 matchs, et '0' dans le cas contraire.
 

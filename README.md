@@ -60,44 +60,40 @@ Dans ce cours, nous allons travailler avec un jeu de données d'e-sport. Les don
 - `MoyenneMorts`: Le nombre moyen de fois que le joueur est mort par match.
 - `RatioKDA`: Un indicateur de performance calculé à partir du nombre de tués, morts, et assistances.
 
-### Théorie sous-jacente aux Exercices
+### Exercices Pratiques sur Excel
 
-Chaque exercice est conçu pour renforcer une compétence spécifique en analyse de données utilisant Excel.
+#### Exercice 1: Total des Matchs Joués
+Calculez la somme totale des matchs joués par tous les joueurs.
 
-#### Exercice 1 : Calcul du Total des Matchs Joués
-**Concept :** La somme totale d'une colonne numérique.
-**Formule Excel :** `SOMME` permet d'additionner toutes les valeurs d'une colonne.
+#### Exercice 2: Nombre Maximum de Victoires
+Identifiez le nombre maximum de victoires qu'un joueur a obtenues.
 
-#### Exercice 2 : Identification du Joueur avec le Plus de Victoires
-**Concept :** Trouver le maximum dans une série de données.
-**Formule Excel :** `MAX` trouve la valeur la plus élevée. `MATCH` localise la position de cette valeur dans la colonne. `INDEX` récupère le nom du joueur correspondant à cette position.
+#### Exercice 3: Nombre Minimum de Défaites
+Trouvez le nombre minimum de défaites qu'un joueur a subies.
 
-#### Exercice 3 : Détermination de la Région avec le Plus Grand Nombre de Joueurs
-**Concept :** La mode d'une série de données catégorielles.
-**Formule Excel :** `MODE` ou `MODE.SNGL` détermine l'élément le plus fréquent dans une colonne.
+#### Exercice 4: Total des Victoires pour une Équipe Spécifique
+Calculez le total des victoires pour l'équipe nommée "Team Alpha".
 
-#### Exercice 4 : Calcul de la Moyenne de RatioKDA pour 'League of Legends'
-**Concept :** Calculer une moyenne conditionnelle.
-**Formule Excel :** `MOYENNE.SI` calcule la moyenne des valeurs dans une colonne qui correspondent à un critère spécifique.
+#### Exercice 5: Total des Défaites dans une Région
+Déterminez le total des défaites pour tous les joueurs dans la région "Europe".
 
-#### Exercice 5 : Création d'un Graphique en Barres pour le Nombre de Joueurs par Équipe
-**Concept :** Visualisation des données.
-**Action Excel :** L'outil de création de graphique permet de transformer les données numériques en une représentation visuelle facilitant leur compréhension.
+#### Exercice 6: Moyenne des Victoires
+Calculez la moyenne du nombre de victoires par joueur.
 
-## Exercices Pratiques
+#### Exercice 7: Total des Matchs Joués pour "League of Legends"
+Additionnez le nombre total de matchs joués par les joueurs de "League of Legends".
 
-Pour mettre en pratique les concepts appris, suivez les instructions ci-dessous et utilisez le jeu de données fourni pour compléter les exercices.
+#### Exercice 8: Total des Victoires en "Counter-Strike"
+Trouvez le total des victoires pour les joueurs de "Counter-Strike".
 
-1. **Calculer le nombre total de matchs joués.**
-   - Utilisez la fonction `SOMME` sur la colonne `MatchsJoués`.
-2. **Trouver le joueur avec le plus grand nombre de victoires.**
-   - Combinez `MAX`, `MATCH` et `INDEX` pour identifier ce joueur dans la colonne `Victoires`.
-3. **Quelle région a le plus grand nombre de joueurs ?**
-   - Utilisez `MODE.SNGL` pour trouver la région la plus fréquente dans la colonne `Région`.
-4. **Calculer la moyenne des RatioKDA pour le jeu 'League of Legends'.**
-   - Appliquez `MOYENNE.SI` pour filtrer le jeu spécifique et calculer la moyenne.
-5. **Créez un graphique en barres du nombre de joueurs par équipe.**
-   - Sélectionnez les données appropriées et utilisez l'assistant graphique pour créer un graphique en barres.
+#### Exercice 9: Nombre Maximum de Matchs Joués par un Joueur
+Identifiez le nombre maximum de matchs qu'un joueur unique a joués.
+
+#### Exercice 10: Nombre Minimum de Tués par Match
+Recherchez le nombre minimum de tués par match qu'un joueur a réalisés.
+
+#### Exercice Bonus: Ajout d'une Variable Binaire pour les Victoires
+Créez une nouvelle colonne qui indique '1' si un joueur a gagné plus de 20 matchs, et '0' dans le cas contraire.
 
 ## Approfondir Vos Connaissances
 

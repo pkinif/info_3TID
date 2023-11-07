@@ -41,16 +41,64 @@ Ce document est un guide complet pour notre cours sur la manipulation et la visu
 **Création de Graphiques**
 - Un graphique est un outil puissant pour la visualisation de données. Nous couvrirons comment sélectionner des données et les transformer en graphiques tels que des histogrammes, des graphiques linéaires, et des graphiques en barres dans Excel.
 
+## Théorie des Données
+
+### Comprendre les Données
+
+Dans ce cours, nous allons travailler avec un jeu de données d'e-sport. Les données représentent des informations collectées sur les joueurs, leurs équipes et leurs performances dans les compétitions.
+
+#### Variables du Jeu de Données
+- `IDJoueur`: L'identifiant unique attribué à chaque joueur.
+- `Équipe`: Le nom de l'équipe de l'e-sport à laquelle le joueur appartient.
+- `Région`: La région géographique d'où provient l'équipe.
+- `Jeu`: Le nom du jeu vidéo dans lequel le joueur est en compétition.
+- `MatchsJoués`: Le nombre total de matchs que le joueur a disputés.
+- `Victoires`: Combien de matchs le joueur a gagnés.
+- `Défaites`: Combien de matchs le joueur a perdus.
+- `TauxDeVictoire`: Le pourcentage de matchs gagnés sur le total des matchs joués.
+- `MoyenneTués`: Le nombre moyen d'adversaires que le joueur a éliminés par match.
+- `MoyenneMorts`: Le nombre moyen de fois que le joueur est mort par match.
+- `RatioKDA`: Un indicateur de performance calculé à partir du nombre de tués, morts, et assistances.
+
+### Théorie sous-jacente aux Exercices
+
+Chaque exercice est conçu pour renforcer une compétence spécifique en analyse de données utilisant Excel.
+
+#### Exercice 1 : Calcul du Total des Matchs Joués
+**Concept :** La somme totale d'une colonne numérique.
+**Formule Excel :** `SOMME` permet d'additionner toutes les valeurs d'une colonne.
+
+#### Exercice 2 : Identification du Joueur avec le Plus de Victoires
+**Concept :** Trouver le maximum dans une série de données.
+**Formule Excel :** `MAX` trouve la valeur la plus élevée. `MATCH` localise la position de cette valeur dans la colonne. `INDEX` récupère le nom du joueur correspondant à cette position.
+
+#### Exercice 3 : Détermination de la Région avec le Plus Grand Nombre de Joueurs
+**Concept :** La mode d'une série de données catégorielles.
+**Formule Excel :** `MODE` ou `MODE.SNGL` détermine l'élément le plus fréquent dans une colonne.
+
+#### Exercice 4 : Calcul de la Moyenne de RatioKDA pour 'League of Legends'
+**Concept :** Calculer une moyenne conditionnelle.
+**Formule Excel :** `MOYENNE.SI` calcule la moyenne des valeurs dans une colonne qui correspondent à un critère spécifique.
+
+#### Exercice 5 : Création d'un Graphique en Barres pour le Nombre de Joueurs par Équipe
+**Concept :** Visualisation des données.
+**Action Excel :** L'outil de création de graphique permet de transformer les données numériques en une représentation visuelle facilitant leur compréhension.
+
 ## Exercices Pratiques
 
-Nous allons travailler avec un ensemble de données sur l'esport. Vous allez importer ces données, les nettoyer, les organiser, et enfin visualiser ces données à l'aide de graphiques.
+Pour mettre en pratique les concepts appris, suivez les instructions ci-dessous et utilisez le jeu de données fourni pour compléter les exercices.
 
-### Exercice 1: Importation et Filtrage
-Importez le fichier CSV fourni dans Excel, utilisez les filtres pour trier les données en fonction des critères spécifiques que nous définirons ensemble.
+1. **Calculer le nombre total de matchs joués.**
+   - Utilisez la fonction `SOMME` sur la colonne `MatchsJoués`.
+2. **Trouver le joueur avec le plus grand nombre de victoires.**
+   - Combinez `MAX`, `MATCH` et `INDEX` pour identifier ce joueur dans la colonne `Victoires`.
+3. **Quelle région a le plus grand nombre de joueurs ?**
+   - Utilisez `MODE.SNGL` pour trouver la région la plus fréquente dans la colonne `Région`.
+4. **Calculer la moyenne des RatioKDA pour le jeu 'League of Legends'.**
+   - Appliquez `MOYENNE.SI` pour filtrer le jeu spécifique et calculer la moyenne.
+5. **Créez un graphique en barres du nombre de joueurs par équipe.**
+   - Sélectionnez les données appropriées et utilisez l'assistant graphique pour créer un graphique en barres.
 
-### Exercice 2: Visualisation des Données
-Créez différents types de graphiques pour représenter les performances des équipes et des joueurs à partir des données esport.
+## Approfondir Vos Connaissances
 
-## FAQ
-
-Ce section répondra aux questions fréquemment posées concernant le processus d'importation de données, la résolution de problèmes courants dans Excel, et les meilleures pratiques pour la présentation des données.
+Pour chaque exercice, prenez le temps de comprendre ce que vous faites et pourquoi. N'hésitez pas à expérimenter avec d'autres données ou formules pour explorer ce qu'Excel a à offrir.
